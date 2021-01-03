@@ -20,11 +20,19 @@ generateRatingElement = () => {
   render() {
     return (
       <div className="card-back">
+<<<<<<< HEAD
         <h3 className="title">{this.props.title}</h3>
       <span />
 				{this.generateRatingElement()}
 				<span />
         <h5 className="genres">{this.props.genres.join(', ')}</h5>
+=======
+        <h3 className="title"></h3>
+      <span />
+				{this.generateRatingElement()}
+				<span />
+        <h5 className="genres"></h5>
+>>>>>>> cdeece03470ba9b570611834f3db572888aed9b5
       </div>
     )
   }
